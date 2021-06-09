@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/barChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAR CHART"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/pieChart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pieChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIE CHART"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/radarChart"
+        app:layout_constraintEnd_toEndOf="@+id/barChart"
+        app:layout_constraintStart_toStartOf="@+id/barChart"
+        app:layout_constraintTop_toBottomOf="@+id/barChart" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/radarChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RADAR CHART"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/lineChartChart"
+        app:layout_constraintEnd_toEndOf="@+id/pieChart"
+        app:layout_constraintStart_toStartOf="@+id/pieChart"
+        app:layout_constraintTop_toBottomOf="@+id/pieChart" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lineChartChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LINE CHART"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/radarChart"
+        app:layout_constraintStart_toStartOf="@+id/radarChart"
+        app:layout_constraintTop_toBottomOf="@+id/radarChart" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
