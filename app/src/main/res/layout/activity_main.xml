@@ -13,11 +13,13 @@
         android:layout_height="wrap_content"
         android:text="BAR CHART"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/pieChart"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/pieChart"
@@ -25,9 +27,10 @@
         android:layout_height="wrap_content"
         android:text="PIE CHART"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/radarChart"
         app:layout_constraintEnd_toEndOf="@+id/barChart"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/barChart"
         app:layout_constraintTop_toBottomOf="@+id/barChart" />
 
@@ -37,9 +40,10 @@
         android:layout_height="wrap_content"
         android:text="RADAR CHART"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/lineChartChart"
         app:layout_constraintEnd_toEndOf="@+id/pieChart"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/pieChart"
         app:layout_constraintTop_toBottomOf="@+id/pieChart" />
 
@@ -49,11 +53,24 @@
         android:layout_height="wrap_content"
         android:text="LINE CHART"
         android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnHorizontalChart"
         app:layout_constraintEnd_toEndOf="@+id/radarChart"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/radarChart"
         app:layout_constraintTop_toBottomOf="@+id/radarChart" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHorizontalChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal BAR CHART"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/lineChartChart"
+        app:layout_constraintStart_toStartOf="@+id/lineChartChart"
+        app:layout_constraintTop_toBottomOf="@+id/lineChartChart" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

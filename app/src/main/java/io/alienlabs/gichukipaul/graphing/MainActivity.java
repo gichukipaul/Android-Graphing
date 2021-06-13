@@ -40,5 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, LineActivity.class));
             }
         });
+
+        findViewById(R.id.btnHorizontalChart).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, HorizontalBar.class));
+            }
+        });
     }
 }

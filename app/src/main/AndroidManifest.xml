@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Graphing">
-        <activity android:name=".LineActivity"></activity>
+        <activity
+            android:name=".HorizontalBar"
+            android:rotationAnimation="seamless"
+            android:screenOrientation="landscape" />
+        <activity android:name=".LineActivity" />
         <activity android:name=".RadarActivity" />
         <activity android:name=".BarActivity" />
         <activity android:name=".PieActivity" />
