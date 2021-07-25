@@ -8,16 +8,20 @@ This app is based on the fact that there’s really no substitute for graphs, an
 
 ![sample](https://github.com/gichukipaul/Android-Graphing/blob/master/app/src/main/res/raw/screenshot.png "MainActivity")
 
-### Barchart Activity
+### Barchart
 
 ![barchart](https://github.com/gichukipaul/Android-Graphing/blob/master/BarChart.png "Barchart")
 
 
-### Radarchart Activity
+### Radarchart
 
 ![radarchart](https://github.com/gichukipaul/Android-Graphing/blob/master/RadarChart.png "radarchart")
 
-### Linechart(Cubic) Activity
+### Linechart(Cubic)
 
 ![Linechart (cubic)](https://github.com/gichukipaul/Android-Graphing/blob/master/LineChart(Cubic).png "Linechart")
+
+### Horizontal chart 
+
+![Horizontal barchart](https://github.com/gichukipaul/Android-Graphing/blob/master/app/src/main/res/raw/horizontalchart.png "Horizontal barchart")
 
