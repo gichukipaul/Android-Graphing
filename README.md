@@ -17,7 +17,7 @@ This app is based on the fact that there’s really no substitute for graphs, an
 
 ![radarchart](https://github.com/gichukipaul/Android-Graphing/blob/master/RadarChart.png "radarchart")
 
-### Radarchart Activity
+### Linechart(Cubic) Activity
 
 ![Linechart (cubic)](https://github.com/gichukipaul/Android-Graphing/blob/master/LineChart(Cubic).png "Linechart")
 
